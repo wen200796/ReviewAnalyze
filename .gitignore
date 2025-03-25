@@ -1,2 +1,23 @@
+# Python相關
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# VSCode相關
+.vscode/
+
+# Docker相關
+*.log
+docker-compose.override.yml
+
+# 專案特定
 app/__pycache__/
 app/service/__pycache__/
